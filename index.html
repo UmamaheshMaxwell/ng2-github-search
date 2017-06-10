@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="en">
+    <title>Github Search</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="style.css" rel="stylesheet" />
+
+    <!-- Polyfill(s) for older browsers -->
+    <script src="node_modules/core-js/client/shim.min.js"></script>
+    
+    <script src="node_modules/zone.js/dist/zone.js"></script>
+    <script src="node_modules/reflect-metadata/Reflect.js"></script>
+    <script src="node_modules/systemjs/dist/system.src.js"></script>
+
+    <!-- Configure SystemJS -->
+    <script src="systemjs.config.js"></script>
+    <script>
+      System.import('app').catch(function(err){ console.error(err); });
+    </script>
+</head>
+
+<body>
+    
+    <my-app>Loadin App...</my-app>
+    <script src="http://code.jquery.com/jquery-1.12.4.js" integrity="sha256-Qw82+bXyGq6MydymqBxNPYTaUXXq7c8v3CwiYwLLNXU=" crossorigin="anonymous"></script>    
+    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    
+</body>
+
+</html>
